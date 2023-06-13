@@ -1,0 +1,124 @@
+body {
+    background-color: #ADD8E6;
+    font-family:"Georgia"; 
+   font-weight: 300;
+   text-align: center;
+   font-size: 20px;
+   border-style: double;
+   background-image: url("alessio-soggetti-cfKC0UOZHJo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+h1 {
+    color:#001233;
+    text-align: center;
+    font-family:"Georgia";
+    font-size: 25px;
+    text-shadow: 4px 4px 0 #ADD8E6;
+}
+
+p {
+    
+    font-family: "Georgia"; 
+   font-weight: 300;
+    text-align: center;
+    color: #001233;
+    font-size: 17px;
+}
+
+h3 {
+    
+    font-family: "Georgia"; 
+   font-weight:300;
+    text-align: center;
+    color: #001233;
+    font-size: 17px;
+}
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 5px;
+    text-align: center;
+}
+
+ul#menu li a {
+    background-color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ADD8E6 ;
+    border-radius: 3px 3px 0 0;
+    text-align: center;
+}
+
+ul#menu li a:hover {
+    color:black;
+    background-color:#ADD8E6;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    color: black;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+h2 {
+    color:#001233;
+    text-align: center;
+    font-family:"Georgia";
+    font-size: 80px;
+    text-shadow: 2px 3px darkblue;
+    font-weight: 350;
+    }
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
